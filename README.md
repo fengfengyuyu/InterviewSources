@@ -1,6 +1,6 @@
 # InterviewSources
 
- Dec 6th, 2017
+Dec 6th, 2017
 
  http://www.geeksforgeeks.org/find-the-two-repeating-elements-in-a-given-array/ Find the two repeating elements in a given array
 
@@ -28,3 +28,17 @@ LDA（线性判别分析）涉及SVD，用于解拉格郎日优化。
 支持向量机：距离超平面最近的这几个训练样本，被称为“支持向量”（support vector）。 对偶问题，KKT条件，SMO。核函数相当于把两个样本映射到特征空间之后的内积，由于特征空间维数可能很高，甚至可能是无穷维，因此直接计算内积是非常困难的，这就有了核函数的价值。“再生核希尔伯特空间，RKHS）。soft-margin软间隔，非凸、非连续，数学性质不好，不易求解，“替代损失”（surrogate loss）函数一般具有较好的数学性质。SVM可以得到近似LR模型，两者性能相当，LR可以给出概率值。Lp范数（norm）是常用的正则化项，L2范数倾向于非零分量个数尽量稠密，L0范数和L1范数倾向于非零分量个数尽量少。表示定理（representer theorem）。核函数直接决定了支持向量机与核方法的最终性能。核函数选择一直未决，多核学习可看成集成学习。
  
 贝叶斯分类器：最小化分类错误率的贝叶斯最优分类器，首先要获得后验概率。机器学习所要实现的是基于有限的训练样本集尽可能准确地估计出后验概率。主要有两种策略：给定x，通过直接建模P（c|x)来预测c，这样得到的模型叫“判别式模型”;也可先对联合概率分布P（x,c)建模，然后再由此获得P(c|x)，这样得到的是“生成式模型”。DT、BP、SVM都是判别式模型。类先验概率，根据大数定律，训练集包含充足的独立同分布样本时，P(c)可通过各类样本出现的频率来进行估计。
+
+Dec 10th,2017
+
+想写一个R脚本的sgd，差点把自己坑了。
+
+http://www.stat.cmu.edu/~cshalizi/402/programming/writing-functions.pdf 如何写r 的function
+
+https://machinelearningmastery.com/implement-linear-regression-stochastic-gradient-descent-scratch-python/ 大哥，你这个博客太多糟点了，坑人啊
+
+http://www.cnblogs.com/louyihang-loves-baiyan/p/5136447.html 这个有点靠谱，但不能这么写
+
+http://ruder.io/optimizing-gradient-descent/ 各种gradient descent的介绍
+
+
