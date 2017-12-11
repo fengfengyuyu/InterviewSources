@@ -41,4 +41,18 @@ http://www.cnblogs.com/louyihang-loves-baiyan/p/5136447.html 这个有点靠谱�
 
 http://ruder.io/optimizing-gradient-descent/ 各种gradient descent的介绍
 
+Dec 11th,2017
 
+http://file.scirp.org/pdf/OJS_2016102415592095.pdf 有关复杂抽样的案例
+
+https://www.zhihu.com/question/22237507 有关SVD
+
+http://www.cnblogs.com/lzllovesyl/p/5243370.html 有关SVD
+
+http://gallery.rcpp.org/articles/divide-and-concquer-svd/ 各种SVD比较
+
+https://github.com/hoytak/pyksvd 并行计算SVD
+
+https://www.cnblogs.com/LeftNotEasy/archive/2011/01/19/svd-and-applications.html SVD，但里面解释是错误的
+
+https://www.bonaccorso.eu/2017/08/02/svd-recommendations-using-tensorflow/ 如果是小规模推荐系统用svd，如果是大规模用ALS 
